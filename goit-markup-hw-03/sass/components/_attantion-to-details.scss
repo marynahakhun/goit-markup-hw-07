@@ -1,0 +1,54 @@
+.our-features__invisible, .portfolio__invisible{
+    display: none;
+}
+
+.our-features {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    justify-content: space-between;
+    &__items {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    &__items li {
+        width: 270px;
+    }
+    
+    &__title {
+        padding-bottom: 10px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: calc(16/14);
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        color: $black-color;
+    
+    }
+    
+    &__description {
+    
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: calc(24/14);
+    
+        letter-spacing: 0.03em;
+    
+        color: $silver-color;
+    
+    }
+    
+    &__icon {
+        padding: 25px 100px;
+        width: 270px;
+        height: 120px;
+        background-color: $silver-bg;
+        margin-bottom: 30px;
+        border-radius: 4px;
+    }
+}
+
